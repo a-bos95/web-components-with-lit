@@ -14,7 +14,7 @@ class LearnLit extends LitElement {
   render() {
     return html`
         <p>The count is ${this.count}</p>
-        <button @click=${() => this.count++}>click me!</button>
+        <button @click=${() => (this.count++)}>click me!</button>
         `;
   }
 }
